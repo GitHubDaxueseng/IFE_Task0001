@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			body{
+			}
+			.big{  
+    			position: absolute;  
+  				top: 0;
+  				right: 0;
+  				bottom: 0;
+  				left: 0;
+  				margin: auto;
+				width: 400px;
+				height: 200px;
+				background-color: #CCC;
+			}
+			.small-left-top{
+				height: 50px;
+				width: 50px;
+				border-radius: 0 0 100% 0;
+				background-color: yellow;
+				position: absolute;
+				left: 0;
+			}
+			.small-right-bottom{
+				height: 50px;
+				width: 50px;
+				border-radius: 100% 0 0 0;
+				background-color: yellow;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="big">
+			<div class="small-left-top"></div>
+			<div class="small-right-bottom"></div>
+		</div>
+	</body>
+</html>
